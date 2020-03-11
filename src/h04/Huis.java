@@ -1,15 +1,13 @@
-package Ho4;
+package h04;
 import java.awt.*;
 import java.applet.*;
 
 public class Huis extends Applet {
 
     public void init() {
+        setSize(450, 450);
         setBackground(Color.pink);
     }
-
-    //Note to self: moet leren beter stuff in te delen
-
     public void paint(Graphics g) {
         g.setColor(Color.gray);
         g.fillRect(5, 40, 300, 300);
