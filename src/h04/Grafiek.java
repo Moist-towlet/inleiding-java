@@ -1,6 +1,6 @@
 package h04;
-import java.awt.*;
-import java.applet.Applet;
+        import java.awt.*;
+        import java.applet.Applet;
 
 public class Grafiek extends Applet {
 
