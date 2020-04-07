@@ -21,7 +21,9 @@ public class Variabel extends Applet {
 
     public void paint(Graphics g) {
         g.setColor(Color.pink);
-        g.drawString("Ieder zijn gedeelte wordt €" +loon, 20, 20);
-
+        g.drawString("Jan's gedeelte wordt €" +loon, 10, 20);
+        g.drawString("Ali's gedeelte wordt €" +loon, 10, 40);
+        g.drawString("Jeanette's gedeelte wordt €" +loon, 10, 60);
+        g.drawString("Mijn gedeelte wordt €" +loon, 10, 80);
     }
 }
