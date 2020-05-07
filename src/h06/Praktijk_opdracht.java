@@ -12,7 +12,9 @@ public class Praktijk_opdracht extends Applet {
         A1 = 5.9;
         A2 = 6.3;
         A3 = 6.9;
-        B1 = (A1 + A2 + A3) / 3;
+        B1 = (A1 + A2 + A3) / 3 * 10;
+        B1 = (int) B1;
+        B1 = B1 / 10;
 
 
     }
